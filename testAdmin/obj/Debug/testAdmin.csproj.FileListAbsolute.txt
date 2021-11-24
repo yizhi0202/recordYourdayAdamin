@@ -19,3 +19,4 @@ D:\Programming\SoftwareEngineer\testAdmin\testAdmin\obj\Debug\testAdmin.mainAdam
 D:\Programming\SoftwareEngineer\testAdmin\testAdmin\obj\Debug\testAdmin.Users.resources
 D:\Programming\SoftwareEngineer\testAdmin\testAdmin\obj\Debug\testAdmin.scenicSpotPage.resources
 D:\Programming\SoftwareEngineer\testAdmin\testAdmin\obj\Debug\testAdmin.paceNotePage.resources
+D:\Programming\SoftwareEngineer\testAdmin\testAdmin\obj\Debug\testAdmin.commentPage.resources

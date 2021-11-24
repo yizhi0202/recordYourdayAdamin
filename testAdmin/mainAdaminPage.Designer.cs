@@ -38,6 +38,8 @@
             this.goSpotInfo = new Sunny.UI.UIButton();
             this.goPaceNoteInfo = new Sunny.UI.UIButton();
             this.uiLabel1 = new Sunny.UI.UILabel();
+            this.uiAvatar5 = new Sunny.UI.UIAvatar();
+            this.goCommentInfo = new Sunny.UI.UIButton();
             this.SuspendLayout();
             // 
             // uiAvatar1
@@ -161,11 +163,41 @@
             this.uiLabel1.Text = "欢迎回来";
             this.uiLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
+            // uiAvatar5
+            // 
+            this.uiAvatar5.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.uiAvatar5.Icon = Sunny.UI.UIAvatar.UIIcon.Image;
+            this.uiAvatar5.Image = ((System.Drawing.Image)(resources.GetObject("uiAvatar5.Image")));
+            this.uiAvatar5.IsScaled = false;
+            this.uiAvatar5.Location = new System.Drawing.Point(47, 474);
+            this.uiAvatar5.MinimumSize = new System.Drawing.Size(1, 1);
+            this.uiAvatar5.Name = "uiAvatar5";
+            this.uiAvatar5.Size = new System.Drawing.Size(60, 60);
+            this.uiAvatar5.TabIndex = 9;
+            this.uiAvatar5.Text = "uiAvatar5";
+            // 
+            // goCommentInfo
+            // 
+            this.goCommentInfo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.goCommentInfo.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.goCommentInfo.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.goCommentInfo.IsScaled = false;
+            this.goCommentInfo.Location = new System.Drawing.Point(128, 487);
+            this.goCommentInfo.MinimumSize = new System.Drawing.Size(1, 1);
+            this.goCommentInfo.Name = "goCommentInfo";
+            this.goCommentInfo.Size = new System.Drawing.Size(167, 47);
+            this.goCommentInfo.Style = Sunny.UI.UIStyle.Custom;
+            this.goCommentInfo.TabIndex = 10;
+            this.goCommentInfo.Text = "评论信息";
+            this.goCommentInfo.Click += new System.EventHandler(this.goCommentInfo_Click);
+            // 
             // mainAdaminPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1008, 658);
+            this.Controls.Add(this.goCommentInfo);
+            this.Controls.Add(this.uiAvatar5);
             this.Controls.Add(this.uiLabel1);
             this.Controls.Add(this.goPaceNoteInfo);
             this.Controls.Add(this.goSpotInfo);
@@ -193,5 +225,7 @@
         private Sunny.UI.UIButton goSpotInfo;
         private Sunny.UI.UIButton goPaceNoteInfo;
         private Sunny.UI.UILabel uiLabel1;
+        private Sunny.UI.UIAvatar uiAvatar5;
+        private Sunny.UI.UIButton goCommentInfo;
     }
 }

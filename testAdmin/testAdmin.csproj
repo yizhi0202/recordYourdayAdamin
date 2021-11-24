@@ -61,6 +61,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="commentPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="commentPage.Designer.cs">
+      <DependentUpon>commentPage.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -81,6 +87,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\comment.cs" />
     <Compile Include="Properties\paceNote.cs" />
     <Compile Include="Properties\scenicSpot.cs" />
     <Compile Include="Properties\userInfo.cs" />
@@ -96,6 +103,9 @@
     <Compile Include="Users.Designer.cs">
       <DependentUpon>Users.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="commentPage.resx">
+      <DependentUpon>commentPage.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

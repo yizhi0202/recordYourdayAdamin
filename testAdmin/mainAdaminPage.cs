@@ -53,5 +53,13 @@ namespace testAdmin
             f1.ShowDialog();
             this.Dispose();
         }
+
+        private void goCommentInfo_Click(object sender, EventArgs e)
+        {
+            commentPage comPage = new commentPage();
+            this.Hide();
+            comPage.ShowDialog();
+            this.Dispose();
+        }
     }
 }
